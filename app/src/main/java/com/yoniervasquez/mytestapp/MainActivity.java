@@ -1,9 +1,7 @@
 package com.yoniervasquez.mytestapp;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -23,11 +21,22 @@ public class MainActivity extends AppCompatActivity {
 
         // Load saved instance
         if (savedInstanceState != null) {
-            textInScreen = savedInstanceState.getInt("textInScreen");
-            changeText(textInScreen);
+            changeText(savedInstanceState.getInt("textInScreen"));
         }
 
-        btnChangeText.setOnClickListener(view -> changeText(textInScreen));
+        // Onclick: change text on screen
+        btnChangeText.setOnClickListener(view -> onClickChangeText());
+    }
+
+    /**
+     * When main btn is on click text in screen will change.
+     */
+    private void onClickChangeText() {
+        if (textInScreen == 1) {
+            changeText(2);
+        } else if (textInScreen == 2) {
+            changeText(1);
+        }
     }
 
     /**
