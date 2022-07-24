@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyTestApp</string>
+    <string name="txt_main_layout_first_text">First text</string>
+    <string name="txt_main_layout_second_text">Second text</string>
+    <string name="txt_main_layout_change_text">Change text</string>
+</resources>
