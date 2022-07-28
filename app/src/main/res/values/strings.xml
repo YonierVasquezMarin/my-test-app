@@ -9,4 +9,7 @@
     <!-- Text for examples -->
     <string name="txt_not_translate"><xliff:g id="title" example="5 days">Hello</xliff:g> world
     </string>
+    <string name="scroll_for_main_view">scroll for main view</string>
+    <string name="mostrar_imagenes_btn">Show\nimages</string>
+    <string name="mostrar_imagenes">Show images</string>
 </resources>

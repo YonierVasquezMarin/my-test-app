@@ -5,4 +5,7 @@
     <string name="txt_main_layout_second_text">Segundo texto</string>
     <string name="txt_main_layout_change_text">Cambiar texto</string>
     <string name="txt_not_translate"><xliff:g id="title" example="Hello mundo">Hello</xliff:g>mundo</string>
+    <string name="scroll_for_main_view">scroll for main view</string>
+    <string name="mostrar_imagenes">Mostrar imágenes</string>
+    <string name="mostrar_imagenes_btn">Show\nimages</string>
 </resources>
