@@ -7,5 +7,6 @@
     <string name="txt_not_translate"><xliff:g id="title" example="Hello mundo">Hello</xliff:g>mundo</string>
     <string name="scroll_for_main_view">scroll for main view</string>
     <string name="mostrar_imagenes">Mostrar imágenes</string>
-    <string name="mostrar_imagenes_btn">Show\nimages</string>
+    <string name="mostrar_imagenes_btn">Mostrar\nimágenes</string>
+    <string name="ocultar_imagenes_btn">Ocultar\nimágenes</string>
 </resources>

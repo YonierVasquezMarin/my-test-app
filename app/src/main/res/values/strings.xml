@@ -11,5 +11,7 @@
     </string>
     <string name="scroll_for_main_view">scroll for main view</string>
     <string name="mostrar_imagenes_btn">Show\nimages</string>
+    <string name="ocultar_imagenes_btn">Hide\nimages</string>
     <string name="mostrar_imagenes">Show images</string>
+
 </resources>

@@ -41,7 +41,7 @@
 
         <View
             android:id="@+id/divider"
-            android:layout_width="382dp"
+            android:layout_width="match_parent"
             android:layout_height="2dp"
             android:layout_marginTop="16dp"
             android:background="#B1B1B1"
@@ -49,7 +49,7 @@
             app:layout_constraintTop_toBottomOf="@+id/tmp_text2" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btn_show_images"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mostrar_imagenes_btn"
@@ -67,6 +67,20 @@
             android:text="@string/mostrar_imagenes"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+        <LinearLayout
+            android:id="@+id/imagesList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+            <ImageView
+                android:layout_width="255dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/robot_android" />
+
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
